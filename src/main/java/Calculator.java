@@ -14,14 +14,13 @@ public class Calculator {
         return  Math.sqrt(num);
     }
     public static int factorial(int n) {
-        if (n == 0) {
-             fact=1;
-        } else {
-            fact=n * factorial(n - 1);
-        }
+        int[] dp=new int[n+1];
+        dp[0]=1;dp[1]=1;
+        for (int i=2;i<=n;i++)
+            dp[i]=i*dp[i-1];
         logger.info("[FACTORIAL] - " + n);
-        logger.info("[RESULT - FACTORIAL] - " + fact);
-        return fact;
+        logger.info("[RESULT - FACTORIAL] - " + dp[n]);
+        return dp[n];
     }
     public static double log(double num){
         logger.info("[log] - " + num);
