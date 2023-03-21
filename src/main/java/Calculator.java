@@ -11,7 +11,7 @@ public class Calculator {
         double result=Math.sqrt(num);
         logger.info("[sqroot] - " + num);
         logger.info("[RESULT - sqroot] - " + result);
-        return  Math.sqrt(num);
+        return  Math.sqrt(num+1);
     }
     public static int factorial(int n) {
         if (n == 0) {
