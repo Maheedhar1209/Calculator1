@@ -1,21 +1,36 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.lang.Math;
 import java.util.*;
 
 public class Calculator {
+    static int fact=1;
+    private static Logger logger = LogManager.getLogger(Calculator.class);
     public static double square_root(double num){
+        double result=Math.sqrt(num);
+        logger.info("[sqroot] - " + num);
+        logger.info("[RESULT - sqroot] - " + result);
         return  Math.sqrt(num);
     }
     public static int factorial(int n) {
         if (n == 0) {
-            return 1;
+             fact=1;
         } else {
-            return n * factorial(n - 1);
+            fact=n * factorial(n - 1);
         }
+        logger.info("[FACTORIAL] - " + n);
+        logger.info("[RESULT - FACTORIAL] - " + fact);
+        return fact;
     }
     public static double log(double num){
+        logger.info("[log] - " + num);
+        logger.info("[RESULT - log] - " + Math.log(num));
         return Math.log(num);
     }
     public static double power(double base,double exponent){
+        logger.info("[POWER] - " + base + ", " + exponent);
+        logger.info("[RESULT - POWER] - " + Math.pow(base, exponent));
         return Math.pow(base, exponent);
     }
     public static void main(String[] args){
