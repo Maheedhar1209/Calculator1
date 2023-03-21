@@ -1,0 +1,11 @@
+---
+- name: pull mini_project image
+  hosts: all
+  tasks:
+    - name: Pull devops image
+      docker_image:
+        name: maheedhar1209/calculator
+        source: pull
+
+    - name: creating updated container
+      shell: docker run -id maheedhar1209/calculator
