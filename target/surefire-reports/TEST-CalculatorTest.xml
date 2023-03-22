@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.425" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalculatorTest" time="0.424" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/maheedhar/Desktop/mobbu/Calculator1/target/surefire/surefirebooter-20230321121622002_3.jar /Users/maheedhar/Desktop/mobbu/Calculator1/target/surefire 2023-03-21T12-16-21_796-jvmRun1 surefire-20230321121622002_1tmp surefire_0-20230321121622002_2tmp"/>
+    <property name="sun.java.command" value="/Users/maheedhar/Desktop/mobbu/Calculator1/target/surefire/surefirebooter-20230322131932308_3.jar /Users/maheedhar/Desktop/mobbu/Calculator1/target/surefire 2023-03-22T13-19-32_067-jvmRun1 surefire-20230322131932308_1tmp surefire_0-20230322131932308_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/maheedhar/Desktop/mobbu/Calculator1/target/test-classes:/Users/maheedhar/Desktop/mobbu/Calculator1/target/classes:/Users/maheedhar/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/maheedhar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/maheedhar/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/Users/maheedhar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/maheedhar/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/maheedhar/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/maheedhar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/maheedhar/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/maheedhar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/maheedhar/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/maheedhar/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/Users/maheedhar/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.0/log4j-core-2.14.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/maheedhar/Desktop/mobbu/Calculator1/target/surefire/surefirebooter-20230321121622002_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/maheedhar/Desktop/mobbu/Calculator1/target/surefire/surefirebooter-20230322131932308_3.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,24 +61,24 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="factorial" classname="CalculatorTest" time="0.385">
-    <system-out><![CDATA[12:16:23.316 [Calculator.java] INFO  Calculator - [FACTORIAL] - 2
-12:16:23.320 [Calculator.java] INFO  Calculator - [RESULT - FACTORIAL] - 2
+  <testcase name="factorial" classname="CalculatorTest" time="0.379">
+    <system-out><![CDATA[13:19:33.508 [Calculator.java] INFO  Calculator - [FACTORIAL] - 2
+13:19:33.512 [Calculator.java] INFO  Calculator - [RESULT - FACTORIAL] - 2
 ]]></system-out>
   </testcase>
-  <testcase name="log" classname="CalculatorTest" time="0.003">
-    <system-out><![CDATA[12:16:23.343 [Calculator.java] INFO  Calculator - [log] - 10.0
-12:16:23.343 [Calculator.java] INFO  Calculator - [RESULT - log] - 2.302585092994046
+  <testcase name="log" classname="CalculatorTest" time="0.006">
+    <system-out><![CDATA[13:19:33.528 [Calculator.java] INFO  Calculator - [log] - 10.0
+13:19:33.529 [Calculator.java] INFO  Calculator - [RESULT - log] - 2.302585092994046
 ]]></system-out>
   </testcase>
-  <testcase name="power_test" classname="CalculatorTest" time="0.005">
-    <system-out><![CDATA[12:16:23.348 [Calculator.java] INFO  Calculator - [POWER] - 2.0, 3.0
-12:16:23.349 [Calculator.java] INFO  Calculator - [RESULT - POWER] - 8.0
+  <testcase name="power_test" classname="CalculatorTest" time="0.003">
+    <system-out><![CDATA[13:19:33.537 [Calculator.java] INFO  Calculator - [POWER] - 2.0, 3.0
+13:19:33.538 [Calculator.java] INFO  Calculator - [RESULT - POWER] - 8.0
 ]]></system-out>
   </testcase>
   <testcase name="square_root_test" classname="CalculatorTest" time="0.001">
-    <system-out><![CDATA[12:16:23.354 [Calculator.java] INFO  Calculator - [sqroot] - 4.0
-12:16:23.354 [Calculator.java] INFO  Calculator - [RESULT - sqroot] - 2.0
+    <system-out><![CDATA[13:19:33.540 [Calculator.java] INFO  Calculator - [sqroot] - 4.0
+13:19:33.541 [Calculator.java] INFO  Calculator - [RESULT - sqroot] - 2.0
 ]]></system-out>
   </testcase>
 </testsuite>
