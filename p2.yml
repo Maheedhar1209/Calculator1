@@ -8,4 +8,4 @@
         source: pull
 
     - name: creating updated container
-      shell: docker run -id maheedhar1209/calculator
+      shell: docker run -it -d maheedhar1209/calculator
