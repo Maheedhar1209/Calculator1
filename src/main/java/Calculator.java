@@ -25,7 +25,7 @@ public class Calculator {
     public static double log(double num){
         logger.info("[log] - " + num);
         logger.info("[RESULT - log] - " + Math.log(num));
-        return Math.log(num);
+        return Math.log(num+1);
     }
     public static double power(double base,double exponent){
         logger.info("[POWER] - " + base + ", " + exponent);
